@@ -36,10 +36,8 @@ const Navbar = () => {
 
         <ul>
           {navLinks.map((navLink) => (
-            <li>
-              <a href={navLink.id} key={navLink.id}>
-                {navLink.title}
-              </a>
+            <li key={navLink.title}>
+              <a href={navLink.id}>{navLink.title}</a>
             </li>
           ))}
         </ul>
@@ -48,4 +46,4 @@ const Navbar = () => {
   );
 };
 
-export { Navbar };
+export default Navbar;
