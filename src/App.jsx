@@ -9,9 +9,9 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 export const App = () => {
   return (
     <main>
-      <Navbar />
-      <Hero />
-      <div className="h-dvh bg-black"></div>
+        <Navbar />
+        <Hero />
+
     </main>
   );
 };
