@@ -36,8 +36,8 @@ const Cocktails = () => {
                                     <div className="md:me-28">
                                         <h3>{drink.name}</h3>
                                         <p>{drink.country} | {drink.detail}</p>
-                                        <span>- { drink.price }</span>
                                     </div>
+                                        <span>- { drink.price }</span>
                                 </li>
                             ))
                         }
@@ -50,11 +50,11 @@ const Cocktails = () => {
                         {
                             mockTailLists.map(drink => (
                                 <li key={drink.name}>
-                                    <div className="me-28">
+                                    <div className="mr-28">
                                         <h3>{drink.name}</h3>
                                         <p>{drink.country} | {drink.detail}</p>
-                                        <span>- { drink.price }</span>
                                     </div>
+                                        <span>- { drink.price }</span>
                                 </li>
                             ))
                         }
